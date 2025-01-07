@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(pytorch_c)
+
+add_library(pytorch_c SHARED
+    src/core/tensor.c
+    src/core/autograd.c
+)
